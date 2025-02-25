@@ -1,18 +1,18 @@
 <!DOCTYPE html>
-<html xml:lang="es">
+<html lang="es">
   <head>
-    <title>Sumador</title>
+    <title>Conversor de Números Romanos</title>
   </head>
   <body>
-    <h1>Sumador</h1>
-    <form id="sumar-form">
-      <label for="primer-numero">Primer número:</label>
-      <input type="number" id="primer-numero" />
-      <label for="segundo-numero">Segundo número:</label>
-      <input type="number" id="segundo-numero" />
-      <input type="submit" value="Sumar" id="sumar-button" />
+    <h1>Conversor de Números Romanos</h1>
+
+    <form id="convertir-form">
+      <label for="numero">Ingrese un número:</label>
+      <input type="number" id="numero"/>
+      <input type="submit" value="Convertir" />
     </form>
-    <div id="resultado-div"></div>
+
+    <div id="resultado-conversion"></div>
 
     <script type="module" src="./src/presenter.js"></script>
   </body>
