@@ -13,6 +13,9 @@ describe("Sumar", () => {
   it("debería convertir 4 a IV", () => {
     expect(conversor(4)).toEqual("IV");
   });
+  it("debería convertir 5 a V", () => {
+    expect(conversor(5)).toEqual("V");
+  });
 });
 
 

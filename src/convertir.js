@@ -7,6 +7,8 @@ function conversor (num){
         return "III";
     } else if (num === 4) {
         return "IV"
+    } else if (num === 5) {
+        return "V"
     }
     return "";
 }
