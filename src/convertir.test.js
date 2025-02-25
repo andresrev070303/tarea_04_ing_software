@@ -21,6 +21,8 @@ describe("Sumar", () => {
   });
   it("debería convertir 10 a X", () => {
     expect(conversor(10)).toEqual("X");
+  });it("debería convertir 14 a XIV", () => {
+    expect(conversor(14)).toEqual("XIV");
   });
 
   
