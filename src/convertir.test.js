@@ -6,10 +6,13 @@ describe("Sumar", () => {
   });
   it("debería convertir 2 a II", () => {
     expect(conversor(2)).toEqual("II");
-});
-it("debería convertir 3 a III", () => {
+  });
+  it("debería convertir 3 a III", () => {
   expect(conversor(3)).toEqual("III");
-});
+  });
+  it("debería convertir 4 a IV", () => {
+    expect(conversor(4)).toEqual("IV");
+  });
 });
 
 
