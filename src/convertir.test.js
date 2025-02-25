@@ -28,6 +28,9 @@ describe("Sumar", () => {
   it("debería convertir 40 a XL", () => {
     expect(conversor(40)).toEqual("XL");
   });
+  it("debería convertir 50 a L", () => {
+    expect(conversor(50)).toEqual("L");
+  });
 
   
 });

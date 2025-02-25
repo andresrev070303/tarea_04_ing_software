@@ -1,5 +1,9 @@
 function conversor (num){
     let resultado = "";
+    if (num>=50){
+        resultado += "L";
+        num-=50;
+    }
     if (num>=40){
         resultado += "XL";
         num-=40;
