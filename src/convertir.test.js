@@ -40,6 +40,9 @@ describe("Sumar", () => {
   it("debería convertir 400 a CD", () => {
     expect(conversor(400)).toEqual("CD");
   });
+  it("debería convertir 500 a D", () => {
+    expect(conversor(500)).toEqual("D");
+  });
 
 
 
