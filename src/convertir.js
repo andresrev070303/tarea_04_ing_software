@@ -1,5 +1,8 @@
 function conversor (num){
     let resultado = "";
+    if (num <=0 || num>500 ){
+        return "Numero invalido";
+    }
     if (num>=500) {
         resultado += "D";
         num -= 500;
@@ -39,8 +42,10 @@ function conversor (num){
     for (let i = 0; i < num; i++) {
         resultado += "I"; 
       }
+    
 
     return resultado;
+
 }
 
 export default conversor;

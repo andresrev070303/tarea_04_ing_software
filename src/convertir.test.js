@@ -44,6 +44,10 @@ describe("Sumar", () => {
     expect(conversor(500)).toEqual("D");
   });
 
+  it("debería dar mensaje de error", () => {
+    expect(conversor(501)).toEqual("Numero invalido");
+  });
+
 
 
   
