@@ -1,5 +1,9 @@
 function conversor (num){
     let resultado = "";
+    if (num>=40){
+        resultado += "XL";
+        num-=40;
+    }
     while (num >= 10){
         resultado += "X";
         num-= 10;
