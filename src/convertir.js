@@ -1,6 +1,9 @@
 function conversor (num){
     let resultado = "";
-    if (num>=90){
+    while (num >= 100){
+        resultado += "C";
+        num-= 100;
+    } if (num>=90){
         resultado += "XC";
         num-=90;
     }
@@ -19,7 +22,7 @@ function conversor (num){
         resultado += "IV";
         num -= 4;
     } else if (num == 9) {
-        resultado = "IX";
+        resultado += "IX";
         num -= 9;
     } else if (num >= 5){
         resultado += "V";
