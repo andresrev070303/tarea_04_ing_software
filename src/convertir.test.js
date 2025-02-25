@@ -31,6 +31,11 @@ describe("Sumar", () => {
   it("debería convertir 50 a L", () => {
     expect(conversor(50)).toEqual("L");
   });
+  it("debería convertir 90 a XC", () => {
+    expect(conversor(90)).toEqual("XC");
+  });
+  
+
 
   
 });
